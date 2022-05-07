@@ -10,6 +10,11 @@
 1. Wait until initial startup configuration is done
 2. Log in using default (ubuntu/ubuntu) or your own login
 
+# Fix keyboard layout
+
+1. Run the command `sudo dpkg-reconfingure keyboard-configuration`
+2. Follow the steps and select the default hotkeys
+
 # Configure network
 
 1. Check network interface using `ls /sys/class/net`
