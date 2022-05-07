@@ -36,10 +36,10 @@ network:
                     password: "PASSWORD-HERE"
             dhcp4: false
 	    addresses:
-	      - 192.168.0.XXX/24
-	    route:
+	      - 192.168.1.XXX/24
+	    routes:
 	      - to: default
-	      - via: 192.168.1.1
+	        via: 192.168.1.1
 	    nameservers:
 		addresses: [8.8.8.8, 8.8.4.4, 192.168.1.1]
 ```
