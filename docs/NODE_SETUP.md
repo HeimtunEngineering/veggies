@@ -1,4 +1,4 @@
-# Node setuo
+# Node setup
 
 # Create SSD image
 
@@ -19,7 +19,7 @@
 
 1. Check network interface using `ls /sys/class/net`
 2. Locate the correct Netplan configuration files using `ls /etc/netplan/`, name is typically 50-cloud-init.yaml
-3. Edit the configuration file accordingly:
+3. Edit the configuration file accordingly using `sudoedit`:
 
 ```
 network:
