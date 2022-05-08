@@ -28,8 +28,9 @@ network:
             dhcp4: true
             optional: true
     version: 2
+    # Only add the settings below if you wish to enable the node using wifi
     wifis:
-        wlp3s0:
+        wlan0:
             optional: true
             access-points:
                 "SSID-NAME-HERE":
